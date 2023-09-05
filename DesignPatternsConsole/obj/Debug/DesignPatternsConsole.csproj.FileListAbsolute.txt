@@ -1,0 +1,8 @@
+C:\lab\DesignPatterns\DesignPatterns\DesignPatternsConsole\bin\Debug\DesignPatternsConsole.exe.config
+C:\lab\DesignPatterns\DesignPatterns\DesignPatternsConsole\bin\Debug\DesignPatternsConsole.exe
+C:\lab\DesignPatterns\DesignPatterns\DesignPatternsConsole\bin\Debug\DesignPatternsConsole.pdb
+C:\lab\DesignPatterns\DesignPatterns\DesignPatternsConsole\obj\Debug\DesignPatternsConsole.csproj.AssemblyReference.cache
+C:\lab\DesignPatterns\DesignPatterns\DesignPatternsConsole\obj\Debug\DesignPatternsConsole.csproj.SuggestedBindingRedirects.cache
+C:\lab\DesignPatterns\DesignPatterns\DesignPatternsConsole\obj\Debug\DesignPatternsConsole.csproj.CoreCompileInputs.cache
+C:\lab\DesignPatterns\DesignPatterns\DesignPatternsConsole\obj\Debug\DesignPatternsConsole.exe
+C:\lab\DesignPatterns\DesignPatterns\DesignPatternsConsole\obj\Debug\DesignPatternsConsole.pdb

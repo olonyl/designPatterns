@@ -1,0 +1,14 @@
+C:\lab\DesignPatterns\DesignPatterns\DesignPatternFactory\bin\Debug\netcoreapp3.1\DesignPatternFactory.exe
+C:\lab\DesignPatterns\DesignPatterns\DesignPatternFactory\bin\Debug\netcoreapp3.1\DesignPatternFactory.deps.json
+C:\lab\DesignPatterns\DesignPatterns\DesignPatternFactory\bin\Debug\netcoreapp3.1\DesignPatternFactory.runtimeconfig.json
+C:\lab\DesignPatterns\DesignPatterns\DesignPatternFactory\bin\Debug\netcoreapp3.1\DesignPatternFactory.runtimeconfig.dev.json
+C:\lab\DesignPatterns\DesignPatterns\DesignPatternFactory\bin\Debug\netcoreapp3.1\DesignPatternFactory.dll
+C:\lab\DesignPatterns\DesignPatterns\DesignPatternFactory\bin\Debug\netcoreapp3.1\DesignPatternFactory.pdb
+C:\lab\DesignPatterns\DesignPatterns\DesignPatternFactory\obj\Debug\netcoreapp3.1\DesignPatternFactory.csproj.AssemblyReference.cache
+C:\lab\DesignPatterns\DesignPatterns\DesignPatternFactory\obj\Debug\netcoreapp3.1\DesignPatternFactory.GeneratedMSBuildEditorConfig.editorconfig
+C:\lab\DesignPatterns\DesignPatterns\DesignPatternFactory\obj\Debug\netcoreapp3.1\DesignPatternFactory.AssemblyInfoInputs.cache
+C:\lab\DesignPatterns\DesignPatterns\DesignPatternFactory\obj\Debug\netcoreapp3.1\DesignPatternFactory.AssemblyInfo.cs
+C:\lab\DesignPatterns\DesignPatterns\DesignPatternFactory\obj\Debug\netcoreapp3.1\DesignPatternFactory.csproj.CoreCompileInputs.cache
+C:\lab\DesignPatterns\DesignPatterns\DesignPatternFactory\obj\Debug\netcoreapp3.1\DesignPatternFactory.dll
+C:\lab\DesignPatterns\DesignPatterns\DesignPatternFactory\obj\Debug\netcoreapp3.1\DesignPatternFactory.pdb
+C:\lab\DesignPatterns\DesignPatterns\DesignPatternFactory\obj\Debug\netcoreapp3.1\DesignPatternFactory.genruntimeconfig.cache
