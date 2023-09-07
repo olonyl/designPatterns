@@ -51,10 +51,10 @@
     <Compile Include="FunctionalBuilderComplex\Person.cs" />
     <Compile Include="FunctionalBuilderComplex\PersonBuilderExtensions.cs" />
     <Compile Include="FunctionalBuilderComplex\PersonBuilder.cs" />
-    <Compile Include="Person.cs" />
-    <Compile Include="PersonAddressBuilder.cs" />
-    <Compile Include="PersonBuilder.cs" />
-    <Compile Include="PersonJobBuilder.cs" />
+    <Compile Include="FacadeBuilder\Person.cs" />
+    <Compile Include="FacadeBuilder\PersonAddressBuilder.cs" />
+    <Compile Include="FacadeBuilder\PersonBuilder.cs" />
+    <Compile Include="FacadeBuilder\PersonJobBuilder.cs" />
     <Compile Include="StepwiseBuilder\Car.cs" />
     <Compile Include="StepwiseBuilder\CarBuilder.cs" />
     <Compile Include="StepwiseBuilder\CarType.cs" />
@@ -73,8 +73,6 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="FacadeBuilder\" />
-  </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
