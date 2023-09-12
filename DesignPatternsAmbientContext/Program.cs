@@ -94,8 +94,35 @@ namespace DesignPatternsAmbientContext
 
 
             // 1st 3500
+            Console.WriteLine(SingletonTester.IsSingleton(()=> new NotSingleTone()));
+            Console.WriteLine(SingletonTester.IsSingleton(() => SingleTone.Instance));
+            //Console.WriteLine(house);
+        }
+    }
 
-            Console.WriteLine(house);
+    public class NotSingleTone
+    {
+
+    }
+    public sealed class SingleTone
+    {
+        private readonly static SingleTone _instance = new SingleTone();
+        private SingleTone()
+        {
+
+        }
+
+        public static SingleTone Instance => _instance;
+    }
+
+    public class SingletonTester
+    {
+        public static bool IsSingleton(Func<object> func)
+        {
+            var f1 =func();
+            var f2 = func();
+
+            return f1 == f2;
         }
     }
 }
