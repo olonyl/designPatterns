@@ -43,9 +43,9 @@ namespace DesignPatternsPrototypes
         {
             //CloningExample();
             //InheritanceExample();
-           // SerializationExample();
+            // SerializationExample();
 
-            var l = new Line()
+            //var l = new Line();
         }
 
         private static void SerializationExample()
