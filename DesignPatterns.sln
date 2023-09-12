@@ -9,9 +9,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DesignPatternFactory", "Des
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DesignPatternsPrototypes", "DesignPatternsPrototypes\DesignPatternsPrototypes.csproj", "{D50330CF-0616-483E-B7FA-448D8C623512}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DesignPatternsSingletone", "DesignPatternsSingletone\DesignPatternsSingletone.csproj", "{C0267AFF-58B9-40A4-B891-2D9F667D4EA7}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DesignPatternsSingletone", "DesignPatternsSingletone\DesignPatternsSingletone.csproj", "{C0267AFF-58B9-40A4-B891-2D9F667D4EA7}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DesignPatternsSingletoneTests", "DesignPatternsSingletoneTests\DesignPatternsSingletoneTests.csproj", "{0DF50BD4-1486-4216-958E-BB5B2C0C0390}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DesignPatternsSingletoneTests", "DesignPatternsSingletoneTests\DesignPatternsSingletoneTests.csproj", "{0DF50BD4-1486-4216-958E-BB5B2C0C0390}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DesignPatternMonostate", "DesignPatternMonostate\DesignPatternMonostate.csproj", "{20DAE5BA-E140-410F-BB3A-0C1873B56050}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -39,6 +41,10 @@ Global
 		{0DF50BD4-1486-4216-958E-BB5B2C0C0390}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0DF50BD4-1486-4216-958E-BB5B2C0C0390}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0DF50BD4-1486-4216-958E-BB5B2C0C0390}.Release|Any CPU.Build.0 = Release|Any CPU
+		{20DAE5BA-E140-410F-BB3A-0C1873B56050}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{20DAE5BA-E140-410F-BB3A-0C1873B56050}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{20DAE5BA-E140-410F-BB3A-0C1873B56050}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{20DAE5BA-E140-410F-BB3A-0C1873B56050}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
