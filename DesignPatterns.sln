@@ -15,6 +15,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DesignPatternsSingletoneTes
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DesignPatternMonostate", "DesignPatternMonostate\DesignPatternMonostate.csproj", "{20DAE5BA-E140-410F-BB3A-0C1873B56050}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DesignPatternsAmbientContext", "DesignPatternsAmbientContext\DesignPatternsAmbientContext.csproj", "{F2D65F9A-13CA-42FE-9636-A954ED2AE0BF}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -45,6 +47,10 @@ Global
 		{20DAE5BA-E140-410F-BB3A-0C1873B56050}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{20DAE5BA-E140-410F-BB3A-0C1873B56050}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{20DAE5BA-E140-410F-BB3A-0C1873B56050}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F2D65F9A-13CA-42FE-9636-A954ED2AE0BF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F2D65F9A-13CA-42FE-9636-A954ED2AE0BF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F2D65F9A-13CA-42FE-9636-A954ED2AE0BF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F2D65F9A-13CA-42FE-9636-A954ED2AE0BF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
