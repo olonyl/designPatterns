@@ -13,9 +13,13 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DesignPatternsSingletone", 
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DesignPatternsSingletoneTests", "DesignPatternsSingletoneTests\DesignPatternsSingletoneTests.csproj", "{0DF50BD4-1486-4216-958E-BB5B2C0C0390}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DesignPatternMonostate", "DesignPatternMonostate\DesignPatternMonostate.csproj", "{20DAE5BA-E140-410F-BB3A-0C1873B56050}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DesignPatternMonostate", "DesignPatternMonostate\DesignPatternMonostate.csproj", "{20DAE5BA-E140-410F-BB3A-0C1873B56050}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DesignPatternsAmbientContext", "DesignPatternsAmbientContext\DesignPatternsAmbientContext.csproj", "{F2D65F9A-13CA-42FE-9636-A954ED2AE0BF}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DesignPatternsAmbientContext", "DesignPatternsAmbientContext\DesignPatternsAmbientContext.csproj", "{F2D65F9A-13CA-42FE-9636-A954ED2AE0BF}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Abstract", "Abstract", "{CB9D421C-C22A-4CDF-B29F-28F96747634F}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DesignPatternsAdapterVectorRaster", "DesignPatternsAdapterVectorRaster\DesignPatternsAdapterVectorRaster.csproj", "{90941193-614F-4FF6-8F27-6B43C6F33BD5}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -51,9 +55,16 @@ Global
 		{F2D65F9A-13CA-42FE-9636-A954ED2AE0BF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F2D65F9A-13CA-42FE-9636-A954ED2AE0BF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F2D65F9A-13CA-42FE-9636-A954ED2AE0BF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{90941193-614F-4FF6-8F27-6B43C6F33BD5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{90941193-614F-4FF6-8F27-6B43C6F33BD5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{90941193-614F-4FF6-8F27-6B43C6F33BD5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{90941193-614F-4FF6-8F27-6B43C6F33BD5}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{90941193-614F-4FF6-8F27-6B43C6F33BD5} = {CB9D421C-C22A-4CDF-B29F-28F96747634F}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {82E796FC-AA12-472F-8538-EBA2CAFDD1F8}
