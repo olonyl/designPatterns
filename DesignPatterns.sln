@@ -21,6 +21,10 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Abstract", "Abstract", "{CB
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DesignPatternsAdapterVectorRaster", "DesignPatternsAdapterVectorRaster\DesignPatternsAdapterVectorRaster.csproj", "{90941193-614F-4FF6-8F27-6B43C6F33BD5}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DesignPatternsGenericValueAdapter", "DesignPatternsGenericValueAdapter\DesignPatternsGenericValueAdapter.csproj", "{2AF8D6B6-6A80-4A3C-8418-C921D6FF4BAF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DesignPatternsAdapterInDependencyInjection", "DesignPatternsAdapterInDependencyInjection\DesignPatternsAdapterInDependencyInjection.csproj", "{0F650346-EFA1-4445-AF63-F371F8DCF7A2}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -59,12 +63,22 @@ Global
 		{90941193-614F-4FF6-8F27-6B43C6F33BD5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{90941193-614F-4FF6-8F27-6B43C6F33BD5}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{90941193-614F-4FF6-8F27-6B43C6F33BD5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2AF8D6B6-6A80-4A3C-8418-C921D6FF4BAF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2AF8D6B6-6A80-4A3C-8418-C921D6FF4BAF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2AF8D6B6-6A80-4A3C-8418-C921D6FF4BAF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2AF8D6B6-6A80-4A3C-8418-C921D6FF4BAF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0F650346-EFA1-4445-AF63-F371F8DCF7A2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0F650346-EFA1-4445-AF63-F371F8DCF7A2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0F650346-EFA1-4445-AF63-F371F8DCF7A2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0F650346-EFA1-4445-AF63-F371F8DCF7A2}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{90941193-614F-4FF6-8F27-6B43C6F33BD5} = {CB9D421C-C22A-4CDF-B29F-28F96747634F}
+		{2AF8D6B6-6A80-4A3C-8418-C921D6FF4BAF} = {CB9D421C-C22A-4CDF-B29F-28F96747634F}
+		{0F650346-EFA1-4445-AF63-F371F8DCF7A2} = {CB9D421C-C22A-4CDF-B29F-28F96747634F}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {82E796FC-AA12-472F-8538-EBA2CAFDD1F8}
