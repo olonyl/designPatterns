@@ -21,15 +21,19 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Abstract", "Abstract", "{CB
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DesignPatternsAdapterVectorRaster", "DesignPatternsAdapterVectorRaster\DesignPatternsAdapterVectorRaster.csproj", "{90941193-614F-4FF6-8F27-6B43C6F33BD5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DesignPatternsGenericValueAdapter", "DesignPatternsGenericValueAdapter\DesignPatternsGenericValueAdapter.csproj", "{2AF8D6B6-6A80-4A3C-8418-C921D6FF4BAF}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DesignPatternsGenericValueAdapter", "DesignPatternsGenericValueAdapter\DesignPatternsGenericValueAdapter.csproj", "{2AF8D6B6-6A80-4A3C-8418-C921D6FF4BAF}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DesignPatternsAdapterInDependencyInjection", "DesignPatternsAdapterInDependencyInjection\DesignPatternsAdapterInDependencyInjection.csproj", "{0F650346-EFA1-4445-AF63-F371F8DCF7A2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DesignPatternsAdapterInDependencyInjection", "DesignPatternsAdapterInDependencyInjection\DesignPatternsAdapterInDependencyInjection.csproj", "{0F650346-EFA1-4445-AF63-F371F8DCF7A2}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DesignPatternsAdapterExcercise", "DesignPatternsAdapterExcercise\DesignPatternsAdapterExcercise.csproj", "{5A06334D-C7D1-4EC8-9B3F-E9179E706376}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DesignPatternsAdapterExcercise", "DesignPatternsAdapterExcercise\DesignPatternsAdapterExcercise.csproj", "{5A06334D-C7D1-4EC8-9B3F-E9179E706376}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Bridge", "Bridge", "{23059321-FCC7-4F89-A4EA-5BC3E02A0C39}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DesignPatternsBridge", "DesignPatternsBridge\DesignPatternsBridge.csproj", "{27B59645-B345-4E40-A1C4-D5D12DDF3D1A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DesignPatternsBridge", "DesignPatternsBridge\DesignPatternsBridge.csproj", "{27B59645-B345-4E40-A1C4-D5D12DDF3D1A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Composite", "Composite", "{0B620AF0-8576-45F7-8280-3940B72272F0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DesignPatternsComposite", "DesignPatternsComposite\DesignPatternsComposite.csproj", "{02D6E623-D0A7-4C28-AB47-B01E2FEA9992}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -85,6 +89,10 @@ Global
 		{27B59645-B345-4E40-A1C4-D5D12DDF3D1A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{27B59645-B345-4E40-A1C4-D5D12DDF3D1A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{27B59645-B345-4E40-A1C4-D5D12DDF3D1A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{02D6E623-D0A7-4C28-AB47-B01E2FEA9992}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{02D6E623-D0A7-4C28-AB47-B01E2FEA9992}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{02D6E623-D0A7-4C28-AB47-B01E2FEA9992}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{02D6E623-D0A7-4C28-AB47-B01E2FEA9992}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -95,6 +103,7 @@ Global
 		{0F650346-EFA1-4445-AF63-F371F8DCF7A2} = {CB9D421C-C22A-4CDF-B29F-28F96747634F}
 		{5A06334D-C7D1-4EC8-9B3F-E9179E706376} = {CB9D421C-C22A-4CDF-B29F-28F96747634F}
 		{27B59645-B345-4E40-A1C4-D5D12DDF3D1A} = {23059321-FCC7-4F89-A4EA-5BC3E02A0C39}
+		{02D6E623-D0A7-4C28-AB47-B01E2FEA9992} = {0B620AF0-8576-45F7-8280-3940B72272F0}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {82E796FC-AA12-472F-8538-EBA2CAFDD1F8}
