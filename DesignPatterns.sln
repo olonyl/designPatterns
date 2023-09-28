@@ -33,15 +33,21 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DesignPatternsBridge", "Des
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Composite", "Composite", "{0B620AF0-8576-45F7-8280-3940B72272F0}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DesignPatternsComposite", "DesignPatternsComposite\DesignPatternsComposite.csproj", "{02D6E623-D0A7-4C28-AB47-B01E2FEA9992}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DesignPatternsComposite", "DesignPatternsComposite\DesignPatternsComposite.csproj", "{02D6E623-D0A7-4C28-AB47-B01E2FEA9992}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Decorator", "Decorator", "{CFAFFFE8-8D32-4E35-81BB-498C5B9C6251}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DesignPatternsDecorator", "DesignPatternsDecorator\DesignPatternsDecorator.csproj", "{7545124C-61AF-4B8E-A01A-8D3A2F7DE74D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DesignPatternsDecorator", "DesignPatternsDecorator\DesignPatternsDecorator.csproj", "{7545124C-61AF-4B8E-A01A-8D3A2F7DE74D}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Facade", "Facade", "{DE89A9EE-FA13-41E1-9EDA-6DA2FAB5A235}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DesignPatternFacade", "DesignPatternFacade\DesignPatternFacade.csproj", "{47B7CE0A-859D-499C-8D7B-FA84121CCDE1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DesignPatternFacade", "DesignPatternFacade\DesignPatternFacade.csproj", "{47B7CE0A-859D-499C-8D7B-FA84121CCDE1}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "FlyWeight", "FlyWeight", "{A126B8B6-72F8-4044-83A0-3BEA413A76D2}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FlyWeightPatternNUnit", "FlyWeightPatternNUnit\FlyWeightPatternNUnit.csproj", "{EF628605-6AB7-4316-855A-ED2CA1B6BF26}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FlyWeightCapitalization", "FlyWeightCapitalization\FlyWeightCapitalization.csproj", "{630A5763-5654-4E33-B019-9E3F50B91677}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -109,6 +115,14 @@ Global
 		{47B7CE0A-859D-499C-8D7B-FA84121CCDE1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{47B7CE0A-859D-499C-8D7B-FA84121CCDE1}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{47B7CE0A-859D-499C-8D7B-FA84121CCDE1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EF628605-6AB7-4316-855A-ED2CA1B6BF26}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EF628605-6AB7-4316-855A-ED2CA1B6BF26}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EF628605-6AB7-4316-855A-ED2CA1B6BF26}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EF628605-6AB7-4316-855A-ED2CA1B6BF26}.Release|Any CPU.Build.0 = Release|Any CPU
+		{630A5763-5654-4E33-B019-9E3F50B91677}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{630A5763-5654-4E33-B019-9E3F50B91677}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{630A5763-5654-4E33-B019-9E3F50B91677}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{630A5763-5654-4E33-B019-9E3F50B91677}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -122,6 +136,8 @@ Global
 		{02D6E623-D0A7-4C28-AB47-B01E2FEA9992} = {0B620AF0-8576-45F7-8280-3940B72272F0}
 		{7545124C-61AF-4B8E-A01A-8D3A2F7DE74D} = {CFAFFFE8-8D32-4E35-81BB-498C5B9C6251}
 		{47B7CE0A-859D-499C-8D7B-FA84121CCDE1} = {DE89A9EE-FA13-41E1-9EDA-6DA2FAB5A235}
+		{EF628605-6AB7-4316-855A-ED2CA1B6BF26} = {A126B8B6-72F8-4044-83A0-3BEA413A76D2}
+		{630A5763-5654-4E33-B019-9E3F50B91677} = {A126B8B6-72F8-4044-83A0-3BEA413A76D2}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {82E796FC-AA12-472F-8538-EBA2CAFDD1F8}
