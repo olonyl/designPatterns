@@ -1,0 +1,209 @@
+﻿
+using System;
+using System.Collections.Generic;
+using System.ComponentModel;
+using System.Linq;
+using System.Reflection;
+using System.Text;
+using ProxyDesignPattern.DynamicProxy;
+
+namespace ProxyDesignPattern
+{
+    public enum Op : byte
+    {
+        [Description("*")]
+        Mul = 0,
+        [Description("/")]
+        Div = 1,
+        [Description("+")]
+        Add = 2,
+        [Description("-")]
+        Sub = 3
+    }
+    public static class OpImpl
+    {
+        static OpImpl()
+        {
+            var type = typeof(Op);
+            foreach (Op op in Enum.GetValues(type))
+            {
+                MemberInfo[] memInfo = type.GetMember(op.ToString());
+                if (memInfo.Length > 0)
+                {
+                    var attrs = memInfo[0].GetCustomAttributes(
+                        typeof(DescriptionAttribute), false);
+                    if (attrs.Length > 0)
+                    {
+                        opNames[op] = ((DescriptionAttribute)attrs[0]).Description[0];
+                    }
+                }
+            }
+        }
+        private static readonly Dictionary<Op, char> opNames
+            = new Dictionary<Op, char>();
+
+        private static readonly Dictionary<Op, Func<double, double, double>> opImpl =
+            new Dictionary<Op, Func<double, double, double>>()
+            {
+                [Op.Mul] = ((x, y) => x * y),
+                [Op.Div] = ((x, y) => x / y),
+                [Op.Add] = ((x, y) => x + y),
+                [Op.Sub] = ((x, y) => x - y)
+            };
+
+        public static double Call(this Op op, int x, int y)
+        {
+            return opImpl[op](x, y);
+        }
+
+        public static char Name(this Op op)
+        {
+            return opNames[op];
+        }
+    }
+
+    internal class Program
+    {
+        static void Main(string[] args)
+        {
+            //ProxyDesignPattern.ProtectionProxy.ICar car 
+            //    = new ProxyDesignPattern.ProtectionProxy.CarProxy(new ProxyDesignPattern.ProtectionProxy.Driver(22));
+            //car.Drive();
+
+            //var c = new ProxyDesignPattern.PropertyProxy.Creature();
+            //c.Agility = 10;
+            //c.Agility = 10;
+
+            //Console.WriteLine(10f * 5.Percent());
+            //Console.WriteLine(2.Percent() + 3.Percent());//5%
+
+
+            //var creatures = new Creature[100];
+            ////Age X Y Age X Y Age X Y
+            //foreach (var creature in creatures)
+            //    creature.X++;
+
+            //var creatures2 = new Creatures(100);
+            //foreach (var c2 in creatures2)
+            //{
+            //    c2.X++;
+            //}
+            //var ba = new BankAccount();
+            //ba.Deposit(100);
+            //ba.Withdraw(50);
+
+            //Console.WriteLine(ba);
+
+
+            //var bai = Log<BankAccount>.As<IBankAccount>();
+            //bai.Deposit(100);
+            //bai.Withdraw(50);
+
+            //Console.WriteLine(bai);
+           // Console.WriteLine(ba.Info);
+
+           var numbers = new[] { 2, 5, 8,9, 10 };
+           int numberOfOps = numbers.Length - 1;
+
+           for (int result = 0; result <= 10; ++result)
+           {
+               for (var key = 0UL; key < (1UL << 2 * numberOfOps); ++ key)
+               {
+                   var tbs = new TwoBitSet(key);
+                   var ops = Enumerable.Range(0, numberOfOps)
+                       .Select(i => tbs[i]).Cast<Op>().ToArray();
+                   var problem = new Problem(numbers, ops);
+                   if(problem.Eval() == result)
+                       Console.WriteLine($"{new Problem(numbers, ops)} = {result}");
+               }
+           }
+        }
+
+       
+
+
+
+        //Op -> name
+
+        public class Problem
+        {
+            //1 3 5 7
+            //Op.Add Op.Mul Op.Add
+            private readonly List<int> numbers;
+            private readonly List<Op> ops;
+
+            public Problem(IEnumerable<int> numbers, IEnumerable<Op> ops)
+            {
+                this.numbers = new List<int>(numbers);
+                this.ops = new List<Op>(ops);
+            }
+
+            public int Eval()
+            {
+                var opGroups = new[]
+                {
+                    new[] { Op.Mul, Op.Div },
+                    new[] { Op.Add, Op.Sub }
+                };
+                startAgain:
+                foreach (var group in opGroups)
+                {
+                    for (int idx = 0; idx < ops.Count; ++idx)
+                    {
+                        if (group.Contains(ops[idx]))
+                        {
+                            var op = ops[idx];
+                            double result = op.Call(numbers[idx], numbers[idx + 1]);
+
+                            if (result != (int)result)
+                                return int.MinValue;
+
+                            numbers[idx] = (int) result;
+                            numbers.RemoveAt(idx + 1);
+                            ops.RemoveAt(idx);
+
+                            if (numbers.Count == 1) return numbers[0];
+                            goto startAgain;
+                        }
+                    }
+                }
+                return numbers[0];
+            }
+
+            public override string ToString()
+            {
+                var sb = new StringBuilder();
+                int i = 0;
+
+                for (; i < ops.Count; ++i)
+                {
+                    sb.Append(numbers[i]);
+                    sb.Append(ops[i].Name());
+                }
+
+                sb.Append(numbers[i]);
+                return sb.ToString();
+            }
+        }
+        public class TwoBitSet
+        {
+            //64 bits --> 32 values
+            private readonly ulong data;
+            public TwoBitSet(ulong data)
+            {
+                this.data = data;
+            }
+
+            //101010101 00 10 01 01
+            public byte this[int index]
+            {
+                get
+                {
+                    var shift = index << 1;
+                    ulong mask = (0b11U << shift); // 00 11 00 00
+                    return (byte)((data & mask) >> shift);
+                }
+            }
+        }
+    }
+}
