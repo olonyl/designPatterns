@@ -103,7 +103,6 @@ namespace Iterator.DesignPatern
                             yield return right;
                 }
 
-                var res = Traverse(root);
                 foreach (var node in Traverse(root))
                     yield return node;
             }
