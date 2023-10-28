@@ -1,5 +1,7 @@
 ﻿using System;
+using System.Collections.Generic;
 using System.ComponentModel.Design;
+using System.Linq;
 
 namespace Iterator.DesignPatern
 {
@@ -76,6 +78,38 @@ namespace Iterator.DesignPatern
         }
 
     }
+
+    public class BinaryTree<T>
+    {
+        private Node<T> root;
+
+        public BinaryTree(Node<T> root)
+        {
+            this.root = root;
+        }
+
+        public IEnumerable<Node<T>> InOrder
+        {
+            get
+            {
+                IEnumerable<Node<T>> Traverse(Node<T> current)
+                {
+                    if(current.Left !=  null)
+                        foreach (var left in Traverse(current.Left))
+                            yield return left;
+                    yield return current;
+                    if (current.Right != null)
+                        foreach (var right in Traverse(current.Right))
+                            yield return right;
+                }
+
+                var res = Traverse(root);
+                foreach (var node in Traverse(root))
+                    yield return node;
+            }
+        }
+    }
+
     internal class Program
     {
         static void Main(string[] args)
@@ -101,6 +135,9 @@ namespace Iterator.DesignPatern
                 Console.Write(',');
             }
             Console.WriteLine();
+
+            var tree = new BinaryTree<int>(root);
+            Console.WriteLine(string.Join(",", tree.InOrder.Select(x=> x.Value)));
         }
     }
 }
