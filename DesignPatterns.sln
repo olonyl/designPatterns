@@ -83,6 +83,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ArrayBackedProperty.DesignP
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ChatRoom.Mediator.DesignPattern", "ChatRoom.Mediator.DesignPattern\ChatRoom.Mediator.DesignPattern.csproj", "{C3FEA006-29C4-40BA-B743-A2C9A2984F1E}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EventBroker.DesignPattern", "EventBroker.DesignPattern\EventBroker.DesignPattern.csproj", "{C2B4BEE2-B90A-4113-8CF5-BB7ED71512D2}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -201,6 +203,10 @@ Global
 		{C3FEA006-29C4-40BA-B743-A2C9A2984F1E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C3FEA006-29C4-40BA-B743-A2C9A2984F1E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C3FEA006-29C4-40BA-B743-A2C9A2984F1E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C2B4BEE2-B90A-4113-8CF5-BB7ED71512D2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C2B4BEE2-B90A-4113-8CF5-BB7ED71512D2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C2B4BEE2-B90A-4113-8CF5-BB7ED71512D2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C2B4BEE2-B90A-4113-8CF5-BB7ED71512D2}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -227,6 +233,7 @@ Global
 		{08BF2045-9FC9-480B-A69B-B3FAE597A1C0} = {9EDD28B0-DCDD-4B50-BA28-BD61409CFA82}
 		{2A989FE2-212E-410B-A0DE-FF590665F5F3} = {9EDD28B0-DCDD-4B50-BA28-BD61409CFA82}
 		{C3FEA006-29C4-40BA-B743-A2C9A2984F1E} = {AD7DB8CD-55E7-4836-B3BE-857F7D29CCE7}
+		{C2B4BEE2-B90A-4113-8CF5-BB7ED71512D2} = {AD7DB8CD-55E7-4836-B3BE-857F7D29CCE7}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {82E796FC-AA12-472F-8538-EBA2CAFDD1F8}
