@@ -65,27 +65,31 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ChainOfResponsabilityTest",
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Command", "Command", "{A187E3FC-B975-4AA1-8A35-65FF0220617C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Command.Pattern", "Command.Pattern\Command.Pattern.csproj", "{D7FDE3BC-D008-4615-B64D-198C75DAFFFD}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Command.Pattern", "Command.Pattern\Command.Pattern.csproj", "{D7FDE3BC-D008-4615-B64D-198C75DAFFFD}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Interpreter", "Interpreter", "{8A8E67F0-A242-466C-A27F-1E2F376AD2F9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Interpreter.DesignPattern", "Interpreter.DesignPattern\Interpreter.DesignPattern.csproj", "{A931357D-8123-4804-9261-A170C23C83B4}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Interpreter.DesignPattern", "Interpreter.DesignPattern\Interpreter.DesignPattern.csproj", "{A931357D-8123-4804-9261-A170C23C83B4}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Interpreter.Test.DesignPattern", "Interpreter.Test.DesignPattern\Interpreter.Test.DesignPattern.csproj", "{B251E10C-AC4A-4019-8AF8-227C95447DDF}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Interpreter.Test.DesignPattern", "Interpreter.Test.DesignPattern\Interpreter.Test.DesignPattern.csproj", "{B251E10C-AC4A-4019-8AF8-227C95447DDF}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Iterator", "Iterator", "{9EDD28B0-DCDD-4B50-BA28-BD61409CFA82}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Iterator.DesignPatern", "Iterator.DesignPatern\Iterator.DesignPatern.csproj", "{A65D15F4-D52A-4BD3-A87D-D77F444DE063}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Iterator.DesignPatern", "Iterator.DesignPatern\Iterator.DesignPatern.csproj", "{A65D15F4-D52A-4BD3-A87D-D77F444DE063}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IteratorAndDuckTyping.DesignPattern", "IteratorAndDuckTyping.DesignPattern\IteratorAndDuckTyping.DesignPattern.csproj", "{08BF2045-9FC9-480B-A69B-B3FAE597A1C0}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "IteratorAndDuckTyping.DesignPattern", "IteratorAndDuckTyping.DesignPattern\IteratorAndDuckTyping.DesignPattern.csproj", "{08BF2045-9FC9-480B-A69B-B3FAE597A1C0}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ArrayBackedProperty.DesignPattern", "ArrayBackedProperty.DesignPattern\ArrayBackedProperty.DesignPattern.csproj", "{2A989FE2-212E-410B-A0DE-FF590665F5F3}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ArrayBackedProperty.DesignPattern", "ArrayBackedProperty.DesignPattern\ArrayBackedProperty.DesignPattern.csproj", "{2A989FE2-212E-410B-A0DE-FF590665F5F3}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ChatRoom.Mediator.DesignPattern", "ChatRoom.Mediator.DesignPattern\ChatRoom.Mediator.DesignPattern.csproj", "{C3FEA006-29C4-40BA-B743-A2C9A2984F1E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ChatRoom.Mediator.DesignPattern", "ChatRoom.Mediator.DesignPattern\ChatRoom.Mediator.DesignPattern.csproj", "{C3FEA006-29C4-40BA-B743-A2C9A2984F1E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EventBroker.DesignPattern", "EventBroker.DesignPattern\EventBroker.DesignPattern.csproj", "{C2B4BEE2-B90A-4113-8CF5-BB7ED71512D2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EventBroker.DesignPattern", "EventBroker.DesignPattern\EventBroker.DesignPattern.csproj", "{C2B4BEE2-B90A-4113-8CF5-BB7ED71512D2}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MediatorRExample.DesignPattern", "MediatorRExample.DesignPattern\MediatorRExample.DesignPattern.csproj", "{CCD734B3-0DB3-4F4E-B9D4-404FA98DED51}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MediatorRExample.DesignPattern", "MediatorRExample.DesignPattern\MediatorRExample.DesignPattern.csproj", "{CCD734B3-0DB3-4F4E-B9D4-404FA98DED51}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Memento", "Memento", "{C35F8F5E-EEFC-48DE-971E-79A9FAA681AF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Memento.DesignPattern", "Memento.DesignPattern\Memento.DesignPattern.csproj", "{15C1C4C1-F187-4E7E-B443-2960C9AD0844}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -213,6 +217,10 @@ Global
 		{CCD734B3-0DB3-4F4E-B9D4-404FA98DED51}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CCD734B3-0DB3-4F4E-B9D4-404FA98DED51}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{CCD734B3-0DB3-4F4E-B9D4-404FA98DED51}.Release|Any CPU.Build.0 = Release|Any CPU
+		{15C1C4C1-F187-4E7E-B443-2960C9AD0844}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{15C1C4C1-F187-4E7E-B443-2960C9AD0844}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{15C1C4C1-F187-4E7E-B443-2960C9AD0844}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{15C1C4C1-F187-4E7E-B443-2960C9AD0844}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -241,6 +249,7 @@ Global
 		{C3FEA006-29C4-40BA-B743-A2C9A2984F1E} = {AD7DB8CD-55E7-4836-B3BE-857F7D29CCE7}
 		{C2B4BEE2-B90A-4113-8CF5-BB7ED71512D2} = {AD7DB8CD-55E7-4836-B3BE-857F7D29CCE7}
 		{CCD734B3-0DB3-4F4E-B9D4-404FA98DED51} = {AD7DB8CD-55E7-4836-B3BE-857F7D29CCE7}
+		{15C1C4C1-F187-4E7E-B443-2960C9AD0844} = {C35F8F5E-EEFC-48DE-971E-79A9FAA681AF}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {82E796FC-AA12-472F-8538-EBA2CAFDD1F8}
