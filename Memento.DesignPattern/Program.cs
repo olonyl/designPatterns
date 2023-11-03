@@ -71,6 +71,7 @@ namespace Memento.DesignPattern
             return $"{nameof(balance)} : {balance}";
         }
     }
+
     internal class Program
     {
         static void Main(string[] args)
