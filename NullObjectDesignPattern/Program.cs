@@ -8,7 +8,25 @@ namespace NullObjectDesignPattern
     public interface ILog
     {
         void Info(string msg);
-        void Warn(string msg); 
+        void Warn(string msg);
+
+        public static ILog Null = NullLog.Instance;
+
+        private sealed class NullLog : ILog
+        {
+            private static Lazy<NullLog> instance = new Lazy<NullLog>((() => new NullLog()));
+            public static ILog Instance => instance.Value;
+
+            public void Info(string msg)
+            {
+                throw new NotImplementedException();
+            }
+
+            public void Warn(string msg)
+            {
+                throw new NotImplementedException();
+            }
+        }
     }
 
     class ConsoleLog : ILog
