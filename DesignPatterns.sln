@@ -91,6 +91,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Memento", "Memento", "{C35F
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Memento.DesignPattern", "Memento.DesignPattern\Memento.DesignPattern.csproj", "{15C1C4C1-F187-4E7E-B443-2960C9AD0844}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MementoExcercise.DesignPattern", "MementoExcercise.DesignPattern\MementoExcercise.DesignPattern.csproj", "{CF9D313F-D2C3-48F4-AE6F-9CD6A30B0C7B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -221,6 +223,10 @@ Global
 		{15C1C4C1-F187-4E7E-B443-2960C9AD0844}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{15C1C4C1-F187-4E7E-B443-2960C9AD0844}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{15C1C4C1-F187-4E7E-B443-2960C9AD0844}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CF9D313F-D2C3-48F4-AE6F-9CD6A30B0C7B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CF9D313F-D2C3-48F4-AE6F-9CD6A30B0C7B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CF9D313F-D2C3-48F4-AE6F-9CD6A30B0C7B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CF9D313F-D2C3-48F4-AE6F-9CD6A30B0C7B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -250,6 +256,7 @@ Global
 		{C2B4BEE2-B90A-4113-8CF5-BB7ED71512D2} = {AD7DB8CD-55E7-4836-B3BE-857F7D29CCE7}
 		{CCD734B3-0DB3-4F4E-B9D4-404FA98DED51} = {AD7DB8CD-55E7-4836-B3BE-857F7D29CCE7}
 		{15C1C4C1-F187-4E7E-B443-2960C9AD0844} = {C35F8F5E-EEFC-48DE-971E-79A9FAA681AF}
+		{CF9D313F-D2C3-48F4-AE6F-9CD6A30B0C7B} = {C35F8F5E-EEFC-48DE-971E-79A9FAA681AF}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {82E796FC-AA12-472F-8538-EBA2CAFDD1F8}
