@@ -1,4 +1,5 @@
 ﻿using Autofac;
+using Coding.Exercise;
 using ImpromptuInterface;
 using System;
 using System.Dynamic;
@@ -96,12 +97,61 @@ namespace NullObjectDesignPattern
             //    ba.Deposit(200);
             //}
 
-            var log = Null<ILog>.Instance;
-            log.Info("Test");
+            //var log = Null<ILog>.Instance;
+            //log.Info("Test");
 
-            var ba = new BankAccount(log);
-            ba.Deposit(300);
+            //var ba = new BankAccount(log);
+            //ba.Deposit(300);
 
+            var account = new Account(new Coding.Exercise.NullLog());
+            account.SomeOperation();
         }
+    }
+}
+
+namespace Coding.Exercise
+{
+    public interface ILog
+    {
+        // maximum # of elements in the log
+        int RecordLimit { get; }
+
+        // number of elements already in the log
+        int RecordCount { get; set; }
+
+        // expected to increment RecordCount
+        void LogInfo(string message);
+    }
+
+    public class Account
+    {
+        private ILog log;
+
+        public Account(ILog log)
+        {
+            this.log = log;
+        }
+
+        public void SomeOperation()
+        {
+            int c = log.RecordCount;
+            log.LogInfo("Performing an operation");
+            if (c + 1 != log.RecordCount)
+                throw new Exception();
+            if (log.RecordCount >= log.RecordLimit)
+                throw new Exception();
+        }
+    }
+
+    public class NullLog : ILog
+    {
+        // maximum # of elements in the log
+        public int RecordLimit { get { return 200; } }
+
+        // number of elements already in the log
+        public int RecordCount { get; set; }
+
+        // expected to increment RecordCount
+        public void LogInfo(string message) { RecordCount++; }
     }
 }
