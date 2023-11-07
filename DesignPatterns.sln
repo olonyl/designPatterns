@@ -101,6 +101,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Observer", "Observer", "{8E
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Observer.KeywordEvent", "Observer.KeywordEvent\Observer.KeywordEvent.csproj", "{49EF0355-56AC-4BF4-87D1-E99E4C289461}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WeakEventPattern", "WeakEventPattern\WeakEventPattern.csproj", "{FA3E014E-3B6F-4EA3-B6D0-2D72B3E99C06}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -243,6 +245,10 @@ Global
 		{49EF0355-56AC-4BF4-87D1-E99E4C289461}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{49EF0355-56AC-4BF4-87D1-E99E4C289461}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{49EF0355-56AC-4BF4-87D1-E99E4C289461}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FA3E014E-3B6F-4EA3-B6D0-2D72B3E99C06}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FA3E014E-3B6F-4EA3-B6D0-2D72B3E99C06}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FA3E014E-3B6F-4EA3-B6D0-2D72B3E99C06}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FA3E014E-3B6F-4EA3-B6D0-2D72B3E99C06}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -275,6 +281,7 @@ Global
 		{CF9D313F-D2C3-48F4-AE6F-9CD6A30B0C7B} = {C35F8F5E-EEFC-48DE-971E-79A9FAA681AF}
 		{3AFEA0F1-2D07-443A-A64C-0D8545417F70} = {448362E0-B651-4CDE-B012-2ADB1EB29C82}
 		{49EF0355-56AC-4BF4-87D1-E99E4C289461} = {8E4B4601-E207-4798-ADC5-0173FA345E87}
+		{FA3E014E-3B6F-4EA3-B6D0-2D72B3E99C06} = {8E4B4601-E207-4798-ADC5-0173FA345E87}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {82E796FC-AA12-472F-8538-EBA2CAFDD1F8}
