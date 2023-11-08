@@ -1,76 +1,45 @@
-﻿using System;
+﻿using JetBrains.Annotations;
+using System;
 using System.Collections.Generic;
+using System.ComponentModel;
+using System.Runtime.CompilerServices;
 using System.Runtime.Serialization;
 
 namespace ObserverViaSpecialInterface
 {
-    public class Event
+   public class Market : INotifyPropertyChanged
     {
-
-    }
-
-    public class FallsIllEvent : Event
-    {
-        public string Address;
-    }
-
-    public class Person : IObservable<Event>
-    {
-        private readonly HashSet<Subscription> subscriptions
-            = new HashSet<Subscription>();
-
-        public IDisposable Subscribe(IObserver<Event> observer)
+        private float volatility;
+        public float Volatitility
         {
-            var subscription = new Subscription(this, observer);
-            subscriptions.Add(subscription);
-            return subscription;
-        }
-
-        public void FallsIll()
-        {
-            foreach (var s in subscriptions)
-            {
-                s.Observer.OnNext(new FallsIllEvent { Address = "123 London Rd" });
+            get => volatility;
+            set  {
+                if(value.Equals(volatility)) return;
+                volatility = value;
+                OnPropertyChanged();
             }
         }
+        public event PropertyChangedEventHandler PropertyChanged;
 
-        private class Subscription : IDisposable
+        [NotifyPropertyChangedInvocator]
+        protected virtual void OnPropertyChanged([CallerMemberName] string propertyName = null)
         {
-            private readonly Person person;
-            public readonly IObserver<Event> Observer;
-            public Subscription(Person person, IObserver<Event> observer)
-            {
-                this.person = person;
-                Observer = observer;
-            }
-            public void Dispose()
-            {
-                person.subscriptions.Remove(this);
-            }
+            PropertyChanged?.Invoke(this, new PropertyChangedEventArgs(propertyName));
         }
     }
 
-    public class Program : IObserver<Event>
+    public class Program
     {
         static void AnotherMain(string[] args)
         {
-            new Program();
-        }
+            var market = new Market();
+            market.PropertyChanged += (sender, eventArgs) =>
+            {
+                if (eventArgs.PropertyName == "Volatility")
+                {
 
-        public Program()
-        {
-            var person = new Person();
-            var sub = person.Subscribe(this);
-            person.FallsIll();
-        }
-        public void OnCompleted() { }
-
-        public void OnError(Exception error) { }
-
-        public void OnNext(Event value)
-        {
-            if (value is FallsIllEvent args)
-                Console.WriteLine($"A doctor is required at {args.Address}");
+                }
+            };
         }
     }
 }
