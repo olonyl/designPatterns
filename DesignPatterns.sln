@@ -111,6 +111,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BidirectionalObserver", "Bi
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PropertyDependencies", "PropertyDependencies\PropertyDependencies.csproj", "{C77571A7-C458-4B4C-B4EA-6ADEF96C5DC9}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DeclarativeEventSubscription", "DeclarativeEventSubscription\DeclarativeEventSubscription.csproj", "{C16F183D-AFC8-4CD5-BFD3-8D01921A3308}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -273,6 +275,10 @@ Global
 		{C77571A7-C458-4B4C-B4EA-6ADEF96C5DC9}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C77571A7-C458-4B4C-B4EA-6ADEF96C5DC9}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C77571A7-C458-4B4C-B4EA-6ADEF96C5DC9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C16F183D-AFC8-4CD5-BFD3-8D01921A3308}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C16F183D-AFC8-4CD5-BFD3-8D01921A3308}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C16F183D-AFC8-4CD5-BFD3-8D01921A3308}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C16F183D-AFC8-4CD5-BFD3-8D01921A3308}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -310,6 +316,7 @@ Global
 		{45E9F20B-B04F-4EE3-9134-AB6CC4C1842D} = {8E4B4601-E207-4798-ADC5-0173FA345E87}
 		{E429A5A5-49B6-4652-9FA6-F56A4EB28A03} = {8E4B4601-E207-4798-ADC5-0173FA345E87}
 		{C77571A7-C458-4B4C-B4EA-6ADEF96C5DC9} = {8E4B4601-E207-4798-ADC5-0173FA345E87}
+		{C16F183D-AFC8-4CD5-BFD3-8D01921A3308} = {8E4B4601-E207-4798-ADC5-0173FA345E87}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {82E796FC-AA12-472F-8538-EBA2CAFDD1F8}
