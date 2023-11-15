@@ -44,9 +44,6 @@ namespace DesignPatternsComposite
 
     internal partial class Program
     {
-        
-  
-
         static void Main(string[] args)
         {
             //ChildrenObject();
