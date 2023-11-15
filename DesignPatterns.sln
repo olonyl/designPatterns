@@ -127,6 +127,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SwitchedBasedStateMachine",
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SwitchExpression", "SwitchExpression\SwitchExpression.csproj", "{D8F4B142-7208-4651-A999-B20BA862CD76}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StateMachineWithStateless", "StateMachineWithStateless\StateMachineWithStateless.csproj", "{3FED79A1-73E7-4434-8945-4061129A4477}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -317,6 +319,10 @@ Global
 		{D8F4B142-7208-4651-A999-B20BA862CD76}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D8F4B142-7208-4651-A999-B20BA862CD76}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D8F4B142-7208-4651-A999-B20BA862CD76}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3FED79A1-73E7-4434-8945-4061129A4477}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3FED79A1-73E7-4434-8945-4061129A4477}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3FED79A1-73E7-4434-8945-4061129A4477}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3FED79A1-73E7-4434-8945-4061129A4477}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -361,6 +367,7 @@ Global
 		{0291561A-F5F4-4669-ACA8-6511F75C3418} = {80800631-3EC5-4F8B-82D5-05FA125831FB}
 		{2B78A141-A987-4C0B-8A39-AD480BC18362} = {80800631-3EC5-4F8B-82D5-05FA125831FB}
 		{D8F4B142-7208-4651-A999-B20BA862CD76} = {80800631-3EC5-4F8B-82D5-05FA125831FB}
+		{3FED79A1-73E7-4434-8945-4061129A4477} = {80800631-3EC5-4F8B-82D5-05FA125831FB}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {82E796FC-AA12-472F-8538-EBA2CAFDD1F8}
