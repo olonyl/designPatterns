@@ -159,6 +159,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DynamicVisitorWithDLR", "Dy
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AcyclicVisitor", "AcyclicVisitor\AcyclicVisitor.csproj", "{6DC53E1F-B57D-4A02-93EB-0A33E392CD2B}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VisitorExcercise", "VisitorExcercise\VisitorExcercise.csproj", "{F53E8DA9-4A78-4BE2-99F0-5350154EF06A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -401,6 +403,10 @@ Global
 		{6DC53E1F-B57D-4A02-93EB-0A33E392CD2B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6DC53E1F-B57D-4A02-93EB-0A33E392CD2B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6DC53E1F-B57D-4A02-93EB-0A33E392CD2B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F53E8DA9-4A78-4BE2-99F0-5350154EF06A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F53E8DA9-4A78-4BE2-99F0-5350154EF06A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F53E8DA9-4A78-4BE2-99F0-5350154EF06A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F53E8DA9-4A78-4BE2-99F0-5350154EF06A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -458,6 +464,7 @@ Global
 		{67933CF9-80EA-4468-A7AB-0AC0C9EA89B5} = {8647AAF2-050F-4B7F-8E50-4D655EF8F225}
 		{69A3035E-2ECB-4F2E-A936-1A75213F5772} = {8647AAF2-050F-4B7F-8E50-4D655EF8F225}
 		{6DC53E1F-B57D-4A02-93EB-0A33E392CD2B} = {8647AAF2-050F-4B7F-8E50-4D655EF8F225}
+		{F53E8DA9-4A78-4BE2-99F0-5350154EF06A} = {8647AAF2-050F-4B7F-8E50-4D655EF8F225}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {82E796FC-AA12-472F-8538-EBA2CAFDD1F8}
