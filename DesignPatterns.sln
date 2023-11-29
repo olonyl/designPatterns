@@ -123,43 +123,53 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "StateClassicImplementationD
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HandmadeStateMachine", "HandmadeStateMachine\HandmadeStateMachine.csproj", "{0291561A-F5F4-4669-ACA8-6511F75C3418}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SwitchedBasedStateMachine", "SwitchedBasedStateMachine\SwitchedBasedStateMachine.csproj", "{2B78A141-A987-4C0B-8A39-AD480BC18362}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SwitchedBasedStateMachine", "SwitchedBasedStateMachine\SwitchedBasedStateMachine.csproj", "{2B78A141-A987-4C0B-8A39-AD480BC18362}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SwitchExpression", "SwitchExpression\SwitchExpression.csproj", "{D8F4B142-7208-4651-A999-B20BA862CD76}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SwitchExpression", "SwitchExpression\SwitchExpression.csproj", "{D8F4B142-7208-4651-A999-B20BA862CD76}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StateMachineWithStateless", "StateMachineWithStateless\StateMachineWithStateless.csproj", "{3FED79A1-73E7-4434-8945-4061129A4477}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "StateMachineWithStateless", "StateMachineWithStateless\StateMachineWithStateless.csproj", "{3FED79A1-73E7-4434-8945-4061129A4477}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Strategy", "Strategy", "{FA16752E-055E-4C55-8681-D57379700F0A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DynamicStrategy", "DynamicStrategy\DynamicStrategy.csproj", "{54858741-B56E-4988-9988-A92D27ECC7DA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DynamicStrategy", "DynamicStrategy\DynamicStrategy.csproj", "{54858741-B56E-4988-9988-A92D27ECC7DA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StaticStrategy", "StaticStrategy\StaticStrategy.csproj", "{18D8C3A2-B7F4-45DC-8691-F74061A15A39}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "StaticStrategy", "StaticStrategy\StaticStrategy.csproj", "{18D8C3A2-B7F4-45DC-8691-F74061A15A39}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EqualityAndComparisonStrategies", "EqualityAndComparisonStrategies\EqualityAndComparisonStrategies.csproj", "{6C8E520D-DA08-4190-9AB2-CCE791A7777D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EqualityAndComparisonStrategies", "EqualityAndComparisonStrategies\EqualityAndComparisonStrategies.csproj", "{6C8E520D-DA08-4190-9AB2-CCE791A7777D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StrategyExcercise", "StrategyExcercise\StrategyExcercise.csproj", "{6C4F9B61-AA84-41B6-BCE6-72569E8D849A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "StrategyExcercise", "StrategyExcercise\StrategyExcercise.csproj", "{6C4F9B61-AA84-41B6-BCE6-72569E8D849A}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "TemplateMethod", "TemplateMethod", "{07E741FE-57A3-40F4-8172-B47C7940C51D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TemplateMethodDefault", "TemplateMethodDefault\TemplateMethodDefault.csproj", "{6FAC561A-1CBE-42F5-94DA-B246340F18F6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TemplateMethodDefault", "TemplateMethodDefault\TemplateMethodDefault.csproj", "{6FAC561A-1CBE-42F5-94DA-B246340F18F6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FunctionalTemplateMethod", "FunctionalTemplateMethod\FunctionalTemplateMethod.csproj", "{0BBEF390-313B-405F-9B61-DAD91D46B37B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FunctionalTemplateMethod", "FunctionalTemplateMethod\FunctionalTemplateMethod.csproj", "{0BBEF390-313B-405F-9B61-DAD91D46B37B}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Motivation", "Motivation", "{8647AAF2-050F-4B7F-8E50-4D655EF8F225}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IntrusiveVisitor", "IntrusiveVisitor\IntrusiveVisitor.csproj", "{0CE007EC-D793-454F-A621-1209228E8193}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "IntrusiveVisitor", "IntrusiveVisitor\IntrusiveVisitor.csproj", "{0CE007EC-D793-454F-A621-1209228E8193}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReflectiveVisitor", "ReflectiveVisitor\ReflectiveVisitor.csproj", "{30F32F27-CD58-4538-9A25-5E2BEF31CAA4}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ReflectiveVisitor", "ReflectiveVisitor\ReflectiveVisitor.csproj", "{30F32F27-CD58-4538-9A25-5E2BEF31CAA4}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClassicVisitorDoubleDispatch", "ClassicVisitorDoubleDispatch\ClassicVisitorDoubleDispatch.csproj", "{21F86BF9-284D-4851-AFE3-AF7929F508A5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ClassicVisitorDoubleDispatch", "ClassicVisitorDoubleDispatch\ClassicVisitorDoubleDispatch.csproj", "{21F86BF9-284D-4851-AFE3-AF7929F508A5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReductAndTran", "ReductAndTran\ReductAndTran.csproj", "{67933CF9-80EA-4468-A7AB-0AC0C9EA89B5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ReductAndTran", "ReductAndTran\ReductAndTran.csproj", "{67933CF9-80EA-4468-A7AB-0AC0C9EA89B5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DynamicVisitorWithDLR", "DynamicVisitorWithDLR\DynamicVisitorWithDLR.csproj", "{69A3035E-2ECB-4F2E-A936-1A75213F5772}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DynamicVisitorWithDLR", "DynamicVisitorWithDLR\DynamicVisitorWithDLR.csproj", "{69A3035E-2ECB-4F2E-A936-1A75213F5772}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AcyclicVisitor", "AcyclicVisitor\AcyclicVisitor.csproj", "{6DC53E1F-B57D-4A02-93EB-0A33E392CD2B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AcyclicVisitor", "AcyclicVisitor\AcyclicVisitor.csproj", "{6DC53E1F-B57D-4A02-93EB-0A33E392CD2B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VisitorExcercise", "VisitorExcercise\VisitorExcercise.csproj", "{F53E8DA9-4A78-4BE2-99F0-5350154EF06A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "VisitorExcercise", "VisitorExcercise\VisitorExcercise.csproj", "{F53E8DA9-4A78-4BE2-99F0-5350154EF06A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "_BonusProject", "_BonusProject", "{86D15C37-5867-4D2C-A3F0-3FEE2776EE8A}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DuckTyping", "DuckTyping\DuckTyping.csproj", "{D1A3DD85-F6E7-4DAE-B175-85B8CB29A9D8}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AnASCIIString", "AnASCIIString\AnASCIIString.csproj", "{82557155-0876-4198-942E-AED8B3A76353}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Continuation", "Continuation\Continuation.csproj", "{0E97CDEF-CC45-451B-A850-DA25F653DDE9}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LocalInversionOfControl", "LocalInversionOfControl\LocalInversionOfControl.csproj", "{FE6C5655-1A25-4D47-AC4C-E326B34684D2}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -407,6 +417,22 @@ Global
 		{F53E8DA9-4A78-4BE2-99F0-5350154EF06A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F53E8DA9-4A78-4BE2-99F0-5350154EF06A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F53E8DA9-4A78-4BE2-99F0-5350154EF06A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D1A3DD85-F6E7-4DAE-B175-85B8CB29A9D8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D1A3DD85-F6E7-4DAE-B175-85B8CB29A9D8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D1A3DD85-F6E7-4DAE-B175-85B8CB29A9D8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D1A3DD85-F6E7-4DAE-B175-85B8CB29A9D8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{82557155-0876-4198-942E-AED8B3A76353}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{82557155-0876-4198-942E-AED8B3A76353}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{82557155-0876-4198-942E-AED8B3A76353}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{82557155-0876-4198-942E-AED8B3A76353}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0E97CDEF-CC45-451B-A850-DA25F653DDE9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0E97CDEF-CC45-451B-A850-DA25F653DDE9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0E97CDEF-CC45-451B-A850-DA25F653DDE9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0E97CDEF-CC45-451B-A850-DA25F653DDE9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FE6C5655-1A25-4D47-AC4C-E326B34684D2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FE6C5655-1A25-4D47-AC4C-E326B34684D2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FE6C5655-1A25-4D47-AC4C-E326B34684D2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FE6C5655-1A25-4D47-AC4C-E326B34684D2}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -465,6 +491,10 @@ Global
 		{69A3035E-2ECB-4F2E-A936-1A75213F5772} = {8647AAF2-050F-4B7F-8E50-4D655EF8F225}
 		{6DC53E1F-B57D-4A02-93EB-0A33E392CD2B} = {8647AAF2-050F-4B7F-8E50-4D655EF8F225}
 		{F53E8DA9-4A78-4BE2-99F0-5350154EF06A} = {8647AAF2-050F-4B7F-8E50-4D655EF8F225}
+		{D1A3DD85-F6E7-4DAE-B175-85B8CB29A9D8} = {86D15C37-5867-4D2C-A3F0-3FEE2776EE8A}
+		{82557155-0876-4198-942E-AED8B3A76353} = {86D15C37-5867-4D2C-A3F0-3FEE2776EE8A}
+		{0E97CDEF-CC45-451B-A850-DA25F653DDE9} = {86D15C37-5867-4D2C-A3F0-3FEE2776EE8A}
+		{FE6C5655-1A25-4D47-AC4C-E326B34684D2} = {86D15C37-5867-4D2C-A3F0-3FEE2776EE8A}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {82E796FC-AA12-472F-8538-EBA2CAFDD1F8}
