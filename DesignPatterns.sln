@@ -173,6 +173,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LocalInversionOfControl", "
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BeyondElvisOperator", "BeyondElvisOperator\BeyondElvisOperator.csproj", "{9759F5B9-D345-4634-9C3B-1E0AB426B3FD}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CQRSExample", "CQRSExample\CQRSExample.csproj", "{2635DE34-0FFC-4085-8AC2-2EF9E3C3B2EB}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -439,6 +441,10 @@ Global
 		{9759F5B9-D345-4634-9C3B-1E0AB426B3FD}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9759F5B9-D345-4634-9C3B-1E0AB426B3FD}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9759F5B9-D345-4634-9C3B-1E0AB426B3FD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2635DE34-0FFC-4085-8AC2-2EF9E3C3B2EB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2635DE34-0FFC-4085-8AC2-2EF9E3C3B2EB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2635DE34-0FFC-4085-8AC2-2EF9E3C3B2EB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2635DE34-0FFC-4085-8AC2-2EF9E3C3B2EB}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -502,6 +508,7 @@ Global
 		{0E97CDEF-CC45-451B-A850-DA25F653DDE9} = {86D15C37-5867-4D2C-A3F0-3FEE2776EE8A}
 		{FE6C5655-1A25-4D47-AC4C-E326B34684D2} = {86D15C37-5867-4D2C-A3F0-3FEE2776EE8A}
 		{9759F5B9-D345-4634-9C3B-1E0AB426B3FD} = {86D15C37-5867-4D2C-A3F0-3FEE2776EE8A}
+		{2635DE34-0FFC-4085-8AC2-2EF9E3C3B2EB} = {86D15C37-5867-4D2C-A3F0-3FEE2776EE8A}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {82E796FC-AA12-472F-8538-EBA2CAFDD1F8}
